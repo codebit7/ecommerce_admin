@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { FaMoon, FaBell, FaCog, FaClock, FaSearch } from "react-icons/fa";
 import { Badge, InputGroup, FormControl } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 const Navbar = () => {
     const [darkMode, setDarkMode] = useState(false);
+    
     const profileImage = "https://randomuser.me/api/portraits/men/45.jpg";
   
     return (
